@@ -1,0 +1,116 @@
+
+.maincont{
+    width: 100%;
+    height: 100%;
+     color: white;
+    margin-top: 15vh;
+}
+.maincont p{
+    text-align: center;
+    font-size: 8vw;
+    font-family: boldFont;
+}
+.toti,
+.restul{
+    display: inline-block;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.toti div,
+.restul div{
+    width: 23%;
+    margin: 1%;
+     display: inline-block;
+}
+
+.restul div{
+    width: 23%;
+    margin-left: 7%!important;
+     display: inline-block;
+}
+
+.toti img,
+.restul img{
+      
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.imagine{
+   position: relative;
+  float: left;
+    cursor:crosshair;
+}
+.imagine .hoverImg {
+    position: absolute;
+  left: 0;
+  top: 0;
+    margin: 0 !important;
+  opacity: 0;
+    transition: .7s ease;
+    width: 100%;
+}
+.imagine p{
+    font-size: 2vw;
+    font-weight: bold;
+    margin-top: 1vh;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+.imagine .functie {
+    position: absolute;
+  left: 0;
+  top: 0;
+    font-family: boldFont;
+      top: 42%;
+  left: 47.5%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    font-size: 2.1vw;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    margin: 0 !important;
+  opacity: 0;
+    padding-left: 5%;
+    width: 90%;
+    transition: .7s ease; 
+}
+.imagine:hover .hoverImg{
+    opacity: 0.94;
+    transition: .7s ease;
+}
+.imagine:hover .functie{
+    opacity: 1;
+    transition: .7s ease;
+}
+
+@media only screen and (max-width: 1000px){
+    .maincont{
+        margin-top: 15vh;
+    }
+    .toti div,
+.restul div{
+    width: 100% !important;
+    margin: 0 !important;
+     display: inline-block;
+}
+.maincont p{
+    text-align: center;
+    font-size: 12vw;
+    font-family: boldFont;
+}
+.imagine .functie {
+    
+    font-size: 8vw;
+   
+}
+    .imagine p{
+    font-size: 8vw;
+        font-family:  Arial, Helvetica, sans-serif;
+        margin-bottom: 5%;
+   
+}
+}

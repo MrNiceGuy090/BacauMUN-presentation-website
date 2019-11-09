@@ -1,0 +1,117 @@
+body{
+    color: white;
+  
+}
+#main{
+    margin-top: 20vh;
+    width: 80%;
+    margin-left: 10%;
+}
+h1{
+    text-align: center;
+    font-size: 7vw;
+    font-family: boldFont;
+}
+h3{ 
+font-size: 26px;
+font-weight: 600;}
+h3 span{
+    font-weight: 800;
+    color: #ffe83b;
+}
+h2{
+    font-family: boldFont;
+    text-align: center;
+    font-size: 30px !important;
+    margin-bottom: 7vh;
+    margin-top: 5vh;
+}
+
+p{ font-size: 18px !important;}
+
+.chairs{
+     display: inline-block;
+}
+.chairs div{
+    width: 29.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    display: inline-block;
+}
+.chairs p{
+    text-align: center;
+    font-size: 25px !important;
+    margin-top:3vh;
+    font-weight: 700;
+}
+.chairs div img{
+    width: 100%;
+     display: inline-block;
+}
+ .link-doc{
+        position: relative !important; 
+    }
+
+.readm{
+     background-color: #0d1537;
+    padding: 10px;
+    border: 3px solid white;
+    color: white;
+   
+    position: absolute;
+    font-size: 1.15vw;
+    transition: 0.2s;
+    border-radius: 20px;
+}
+.readm:hover{
+    box-shadow: 5px 5px #ffe83b;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px){
+    #main{
+    margin-top: 15vh;
+}
+    h1{
+    
+    font-size: 12vw;
+   
+}
+    
+    h3{ 
+font-size: 40px;
+}
+    p{ font-size: 30px !important;}
+
+
+h2{
+   margin-bottom: 4vh;
+    margin-top: 4svh;
+    font-size: 50px !important;
+ 
+}
+    .chairs p{
+
+    font-size: 42px !important;
+  
+}
+    .chairs div{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5vh;
+    display: inline-block;
+}
+    .link-doc{
+       margin: 0 !important;
+       position: relative !important;
+    }
+    .readm{
+     
+    font-size: 3.15vw;
+   
+}
+    
+    
+}

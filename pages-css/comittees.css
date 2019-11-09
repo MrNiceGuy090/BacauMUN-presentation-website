@@ -1,0 +1,75 @@
+.content{
+    color: white !important;
+}
+.block h2{
+    font-family: boldFont;
+    color: white;
+    text-align: center;
+    font-size: 7vw;
+    
+}
+.block{
+    float: right;
+    width: 57%;
+    margin-top: 2vw;
+    text-align: left;
+}
+.block h3{
+    font-weight: 600;
+    text-align: center;
+}
+.block p{
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 1.2vw;
+}
+.poza{
+    width: 40%;
+    float: left;
+}
+.poza img{
+    width: 100%;
+}
+
+.readcomitet{
+    margin-top: 2vw;
+    width: 20%;
+    margin-left: 41%;
+    position: relative !important;
+    align-content: center;
+}
+
+@media only screen and (max-width: 1000px){
+    
+    .block{
+    width: 100%;
+    
+    text-align: center;
+}
+    .poza{
+    width: 60%;
+    margin-left: 20%;
+    
+}
+    .block h2{
+  
+    font-size: 10vw;
+        
+    
+}
+    .block h3{
+
+    font-size: 3vw;
+}
+    .block p{
+  margin-top: 2.3vh;
+    font-size: 2.3vw;
+}
+    .readcomitet{
+    margin-top: 3vw;
+    width: 40%;
+    margin-left: 30%;
+    position: relative !important;
+    align-content: center;
+}
+}

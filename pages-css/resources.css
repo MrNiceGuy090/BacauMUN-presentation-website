@@ -1,0 +1,39 @@
+#main{
+    width: 50%;
+    margin-left: 25%;
+    height: 100%;
+    color: white;
+    margin-top: 20vh;
+    align-content: center;
+    
+}
+#main h1{
+     text-align: center;
+    font-size: 6vw;
+    font-family: boldFont;
+}
+#main a{
+    font-size: 2vw;
+    margin-bottom: 100px;
+   
+    color: #ffe83b;
+    width: 100%;
+   
+    margin: 0 auto;
+    display:block; 
+    text-align: center;
+    
+}
+@media only screen and (max-width: 1000px){
+   
+    #main{
+    width: 80%;
+    margin-left: 10%;
+ 
+    
+}#main h1{
+     text-align: center;
+       font-size: 12vw;}
+    #main a{
+        font-size: 50px;}
+}
